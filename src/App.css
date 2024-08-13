@@ -23,7 +23,7 @@ body {
   z-index: 1;
   position: fixed;
   display: flex;
-  /* border: yellow 2px solid; */
+  /* border: yellow 2rem solid; */
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
@@ -34,7 +34,7 @@ body {
 
 /* responsive navbar start */
 /* Responsive styles for mobile devices */
-@media (max-width: 576px) {
+@media (max-width: 576rem) {
   .navbar {
     flex-direction: row;
 
@@ -42,11 +42,11 @@ body {
   }
 
   .logo {
-    width: 10px;
+    width: 10rem;
     padding-right: 30rem;
 
     margin-bottom: 1rem;
-    /* border: 2px rgb(0, 0, 0) solid; */
+    /* border: 2rem rgb(0, 0, 0) solid; */
   }
 
   .logo img {
@@ -68,7 +68,7 @@ body {
 
 .mainbox{
   display: none;
-  border: 2px solid red;
+  border: 2rem solid red;
 
   }
   
@@ -142,8 +142,8 @@ body {
   position: fixed;
   flex-wrap: wrap;
   border-radius: 5rem;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
-  box-shadow: inset 26px 26px 51px #7c7878, inset -26px -26px 51px #ffffff;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0rem 30rem 60rem -12rem inset, rgba(0, 0, 0, 0.3) 0rem 18rem 36rem -18rem inset; */
+  box-shadow: inset 26rem 26rem 51rem #7c7878, inset -26rem -26rem 51rem #ffffff;
 }
 
 .category {
@@ -165,8 +165,8 @@ body {
   border: none;
   /* background-color: #050378; */
   border-radius: 10rem;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0rem 2rem 4rem 0rem,
+    rgba(14, 30, 37, 0.32) 0rem 2rem 16rem 0rem;
 }
 
 .category button:hover {
@@ -239,7 +239,7 @@ body {
 }
 
 .card-body {
-  /* border: 2px solid red; */
+  /* border: 2rem solid red; */
   width: 50%;
   display: flex;
   flex-wrap: wrap;
@@ -259,8 +259,8 @@ body {
 
   background: #ffffff;
   border-radius: 20rem;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-  rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0rem 2rem 4rem 0rem,
+  rgba(14, 30, 37, 0.32) 0rem 2rem 16rem 0rem;
   
   position: relative;
   left: 30%;
@@ -277,7 +277,7 @@ body {
 .btn:hover {
  color: red;
  font-size:12rem;
- box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ box-shadow: rgba(50, 50, 93, 0.25) 0rem 50rem 100rem -20rem, rgba(0, 0, 0, 0.3) 0rem 30rem 60rem -30rem, rgba(10, 37, 64, 0.35) 0rem -2rem 6rem 0rem inset;
 }
 
 /*-------X------ABOUT.JS---------X-------- */

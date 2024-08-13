@@ -55,7 +55,7 @@ export default function Contact() {
       <div className="all">
         {/* <img src='./join_team.png' alt="" style={{ width: "1000px", height: "500px", position:"relative",left:"150px" }} /> */}
         <div className="box1">
-          <h2 style={{ textAlign: "center" }}>Send Message</h2>
+          <h2 style={{ textAlign: "center" }}>Sen d Message</h2>
 
           <div className="form">
             <form>
@@ -66,7 +66,7 @@ export default function Contact() {
                   >
                     Name*:-
                   </label>
-                  <input
+                  <input 
                     type="name"
                     name="name"
                     value={user.name}
