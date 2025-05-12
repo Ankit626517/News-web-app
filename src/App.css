@@ -283,42 +283,100 @@ body {
 
 /*-------X------ABOUT.JS---------X-------- */
 
-.about_section_main{
-  border: 2px red solid;
-  /* padding: 55rem; */
+.about_section_main {
+  border: 2px solid red;
   display: flex;
+  
   flex-wrap: wrap;
   flex-direction: row;
-  
-  /* width: 100%; */
- padding: 60rem 0rem 0rem 40rem;
-
+  padding: 60rem 0rem 0rem 40rem;
+  justify-content: center;
 }
 
-.about_card_main{
-  height: 300rem;
-  width:  250rem;
+.about_card_main {
+  height: auto;
+  width: 90%;
+  /* margin-top: 50rem; */
+  max-width: 300rem;
   border-radius: 15rem;
   background-color: #ffffff;
-  margin: 10rem;
+  margin: 20rem;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  padding: 10rem;
+  padding: 20rem;
   font-size: 10rem;
- align-items: center;
- border: black 1px solid;
- box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, inset rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  
- 
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, inset rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.about_card_main h2{
-  margin: auto;
+
+.about_card_main:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(50, 50, 93, 0.4) 0px 60px 120px -20px, inset rgba(0, 0, 0, 0.4) 0px 40px 80px -30px, rgba(10, 37, 64, 0.5) 0px -2px 8px 0px inset;
 }
-.about_card_main a{
+
+.about_card_main h2 {
   margin: auto;
+  font-size: 12rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.about_card_main a {
+  margin: auto;
+  text-decoration: none;
+  font-size: 10rem;
+  font-weight: bold;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.about_card_main a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768rem) {
+  .about_section_main {
+    padding: 30rem 0rem 0rem 20rem;
+  }
+
+  .about_card_main {
+    width: 100%;
+    margin: 10rem;
+    padding: 15rem;
+  }
+
+  .about_card_main h2 {
+    font-size: 10rem;
+  }
+
+  .about_card_main a {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 576rem) {
+  .about_section_main {
+    padding: 20rem 0rem 0rem 10rem;
+  }
+
+  .about_card_main {
+    margin: 5rem;
+    padding: 10rem;
+  }
+
+  .about_card_main h2 {
+    font-size: 8rem;
+  }
+
+  .about_card_main a {
+    font-size: 6rem;
+  }
 }
 
 /*-------X------CONTACT.JS---------X-------- */
-
 
